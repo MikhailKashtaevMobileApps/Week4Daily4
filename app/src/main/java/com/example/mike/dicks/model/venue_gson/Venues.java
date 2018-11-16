@@ -1,5 +1,5 @@
 
-package com.example.mike.dicks.ui.model.venue_gson;
+package com.example.mike.dicks.model.venue_gson;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;

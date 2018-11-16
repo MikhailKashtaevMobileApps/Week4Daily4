@@ -9,9 +9,9 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.mike.dicks.R;
-import com.example.mike.dicks.ui.model.Repository;
-import com.example.mike.dicks.ui.model.venue_gson.Venue;
-import com.example.mike.dicks.ui.model.venue_gson.Venues;
+import com.example.mike.dicks.model.Repository;
+import com.example.mike.dicks.model.venue_gson.Venue;
+import com.example.mike.dicks.model.venue_gson.Venues;
 
 import java.io.IOException;
 import java.util.ArrayList;

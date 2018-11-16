@@ -1,10 +1,12 @@
 
-package com.example.mike.dicks.ui.model.venue_gson;
+package com.example.mike.dicks.model.venue_gson;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Photo {
+import java.io.Serializable;
+
+public class Photo implements Serializable {
 
     @SerializedName("photoId")
     @Expose

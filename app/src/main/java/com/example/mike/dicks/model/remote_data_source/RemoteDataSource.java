@@ -1,6 +1,6 @@
-package com.example.mike.dicks.ui.model.remote_data_source;
+package com.example.mike.dicks.model.remote_data_source;
 
-import com.example.mike.dicks.ui.model.venue_gson.Venues;
+import com.example.mike.dicks.model.venue_gson.Venues;
 
 import io.reactivex.Observable;
 import retrofit2.Retrofit;

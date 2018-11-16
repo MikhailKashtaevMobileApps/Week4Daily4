@@ -1,11 +1,12 @@
 
-package com.example.mike.dicks.ui.model.venue_gson;
+package com.example.mike.dicks.model.venue_gson;
 
+import java.io.Serializable;
 import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Venue {
+public class Venue implements Serializable {
 
     @SerializedName("id")
     @Expose
@@ -173,4 +174,24 @@ public class Venue {
         this.timeZone = timeZone;
     }
 
+    @Override
+    public String toString() {
+        return "Venue{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", verified=" + verified +
+                ", url='" + url + '\'' +
+                ", ratingColor='" + ratingColor + '\'' +
+                ", ratingSignals=" + ratingSignals +
+                ", rating=" + rating +
+                ", storeId='" + storeId + '\'' +
+                ", location=" + location +
+                ", contacts=" + contacts +
+                ", photos=" + photos +
+                ", canonicalUrl='" + canonicalUrl + '\'' +
+                ", description='" + description + '\'' +
+                ", shortUrl='" + shortUrl + '\'' +
+                ", timeZone='" + timeZone + '\'' +
+                '}';
+    }
 }

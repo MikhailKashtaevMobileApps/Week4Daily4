@@ -1,10 +1,12 @@
 
-package com.example.mike.dicks.ui.model.venue_gson;
+package com.example.mike.dicks.model.venue_gson;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Contact {
+import java.io.Serializable;
+
+public class Contact implements Serializable {
 
     @SerializedName("phone")
     @Expose

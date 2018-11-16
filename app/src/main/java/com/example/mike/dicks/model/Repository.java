@@ -1,7 +1,7 @@
-package com.example.mike.dicks.ui.model;
+package com.example.mike.dicks.model;
 
-import com.example.mike.dicks.ui.model.remote_data_source.RemoteDataSource;
-import com.example.mike.dicks.ui.model.venue_gson.Venues;
+import com.example.mike.dicks.model.remote_data_source.RemoteDataSource;
+import com.example.mike.dicks.model.venue_gson.Venues;
 
 import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
